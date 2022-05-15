@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "drugsMod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Drugs Mod",
+  "description": "Differente drugs and effects in MC",
   "authors": [
-    "Me!"
+    "aqax3"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/drugsMod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.drugs.main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "drugsMod.mixins.json"
   ],
 
   "depends": {
